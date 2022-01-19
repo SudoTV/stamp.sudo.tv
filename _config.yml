@@ -1,0 +1,38 @@
+title: stamp.sudo.tv
+application_name: SudoTV Stamp
+email: wm@mengw.io
+description: SudoTV Stamp
+url: https://stamp.sudo.tv
+github_username: WMXPY
+theme: minima
+repository: SudoTV/stamp.sudo.tv
+plugins_dir: common/_plugins
+layouts_dir: common/_layouts
+includes_dir: common/_includes
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+author:
+  name: WMXPY
+  email: wm@mengw.io
+plugins:
+  - jekyll-github-metadata
+exclude:
+  - common/_plugins
+  - common/_layouts
+  - common/_includes
+  - "common/docs"
+  - "common/LICENSE"
+  - ".vscode/"
+  - .jekyll-cache/
+  - docs/
+  - gemfiles/
+  - _data
+  - _config.yml
+  - ".gitignore"
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - makefile

@@ -1,0 +1,6 @@
+[submodule "stamp"]
+	path = stamp
+	url = https://github.com/SudoTV/SudoTV-Site-Static-Stamp.git
+[submodule "common"]
+	path = common
+	url = https://github.com/SudoTV/SudoTV-Site-Common.git
