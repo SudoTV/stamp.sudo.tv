@@ -1,0 +1,8 @@
+viewer: ghost
+localization:
+  zh-CN:
+    bio: "我是鬼魂"
+  en-US:
+    bio: "I am a ghost"
+stamps:
+  - ghost
