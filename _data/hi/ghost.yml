@@ -1,4 +1,17 @@
 viewer: ghost
+name: Ghost
+about:
+  bitbucket: ghost
+  email: ghost@example.com
+  facebook: ghost
+  github: ghost
+  linkedin: ghost
+  snapchat: ghost
+  steam: ghost
+  reddit: ghost
+  tumblr: ghost
+  twitter: ghost
+  website: https://example.com
 localization:
   zh-CN:
     bio: "我是鬼魂"
@@ -6,3 +19,4 @@ localization:
     bio: "I am a ghost"
 stamps:
   - ghost
+  - hello-world
