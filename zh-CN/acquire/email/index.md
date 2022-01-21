@@ -6,13 +6,13 @@ localization: zh-CN
 
 # {{ page.title }}
 
-Some of the stamps are open to acquiring by email. For example, this stamp can be your first stamp to acquire. Click the stamp to learn more about it.
+一些贴纸可以通过邮件的方式取得。比如说这个贴纸可以成为你获得的第一个贴纸。点击贴纸可以了解到更多有关它的信息。
 
 {% include stamp/thumbnail/medium.html
     stamp=site.data.stamp.hello-world
 %}
 
-Under every stamp detail page, there's a method of acquiring section in it, which looks like this:
+在每一个贴纸的详细页面，都有一个获得贴纸方式的部分，它看起来像这样：
 
 <blockquote>
 {% assign methods=page.localization %}
@@ -22,4 +22,4 @@ Under every stamp detail page, there's a method of acquiring section in it, whic
 %}
 </blockquote>
 
-If email is one of the methods of acquiring, send an email to [stamp@sudo.tv](mailto://stamp@sudo.tv) with the information of the stamp you want to acquire.
+如果邮件是其中一个获取方式，发送一封包含您想获得的贴纸信息的邮件到 [stamp@sudo.tv](mailto://stamp@sudo.tv) 来取得。
