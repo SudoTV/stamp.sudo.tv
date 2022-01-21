@@ -1,5 +1,5 @@
 ---
-title: 通过拉去请求获得贴纸
+title: 通过拉取请求获得贴纸
 layout: base
 localization: zh-CN
 ---

@@ -15,7 +15,7 @@ localization: zh-CN
 {% include navigation/core-link.html
     href="pull-request"
     title="通过拉取请求"
-    description="查看通过拉去请求获得贴纸的方式"
+    description="查看通过拉取请求获得贴纸的方式"
 %}
 
 {% include navigation/core-link.html
