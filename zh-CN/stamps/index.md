@@ -1,7 +1,7 @@
 ---
-title: Stamps List
+title: 贴纸列表
 layout: base
-localization: en-US
+localization: zh-CN
 ---
 
 # {{ page.title }}
