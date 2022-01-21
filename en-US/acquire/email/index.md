@@ -9,7 +9,7 @@ localization: en-US
 Some of the stamps are open to acquiring by email. For example, this stamp can be your first stamp to acquire. Click the stamp to learn more about it.
 
 {% include stamp/thumbnail/medium.html
-    stamp=site.data.stamp.hello-world
+    stamp=site.data.stamp.email-acquirer
 %}
 
 Under every stamp detail page, there's a method of acquiring section in it, which looks like this:
@@ -18,7 +18,7 @@ Under every stamp detail page, there's a method of acquiring section in it, whic
 {% assign methods=page.localization %}
 
 {% include stamp/method-text.html
-    methods=site.data.stamp.hello-world.methods
+    methods=site.data.stamp.email-acquirer.methods
 %}
 </blockquote>
 
