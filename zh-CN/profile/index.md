@@ -4,6 +4,8 @@ layout: base
 localization: zh-CN
 ---
 
-{% include banner/not-ready.html %}
-
 # {{ page.title }}
+
+## 查看观众的画像
+
+{% include stamp/input/profile-jump.html %}

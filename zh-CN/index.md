@@ -15,6 +15,12 @@ localization: zh-CN
 %}
 
 {% include navigation/core-link.html
+    href="profile"
+    title="画像"
+    description="了解观众的画像"
+%}
+
+{% include navigation/core-link.html
     href="acquire"
     title="获得贴纸"
     description="查看获得贴纸的方式"

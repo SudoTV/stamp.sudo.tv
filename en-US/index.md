@@ -15,6 +15,12 @@ localization: en-US
 %}
 
 {% include navigation/core-link.html
+    href="profile"
+    title="Profile"
+    description="Learn more about viewer profiles"
+%}
+
+{% include navigation/core-link.html
     href="acquire"
     title="Acquire Stamp"
     description="View methods to acquire stamps"
