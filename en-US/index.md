@@ -17,3 +17,9 @@ localization: en-US
     title="Acquire Stamp"
     description="View methods to acquire stamps"
 %}
+
+{% include navigation/core-link.html
+    href="create"
+    title="Create Stamp"
+    description="View how to create stamps"
+%}

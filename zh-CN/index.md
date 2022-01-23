@@ -17,3 +17,9 @@ localization: zh-CN
     title="获得贴纸"
     description="查看获得贴纸的方式"
 %}
+
+{% include navigation/core-link.html
+    href="create"
+    title="创建贴纸"
+    description="查看创建贴纸的方式"
+%}
