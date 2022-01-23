@@ -8,8 +8,8 @@ localization: en-US
 
 Some of the stamps are open to acquiring by email. For example, this stamp can be your first stamp to acquire. Click the stamp to learn more about it.
 
-{% include stamp/thumbnail/medium.html
-    stamp=site.data.stamp.email-acquirer
+{% include stamp/earn.html
+    stamp0=site.data.stamp.email-acquirer
 %}
 
 Under every stamp detail page, there's a method of acquiring section in it, which looks like this:
