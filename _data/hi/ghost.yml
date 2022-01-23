@@ -1,6 +1,7 @@
 viewer: ghost
 name: Ghost
 about:
+  bilibili: ghost
   bitbucket: ghost
   email: ghost@example.com
   facebook: ghost
@@ -9,14 +10,16 @@ about:
   snapchat: ghost
   steam: ghost
   reddit: ghost
+  youtube: ghost
   tumblr: ghost
   twitter: ghost
   website: https://example.com
+  weibo: ghost
 localization:
   zh-CN:
     bio: "我是鬼魂"
   en-US:
     bio: "I am a ghost"
 stamps:
-  - ghost
-  - hello-world
+  - stamp: ghost
+  - stamp: hello-world
