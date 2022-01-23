@@ -6,6 +6,8 @@ localization: zh-CN
 
 # {{ page.title }}
 
+## 贴纸
+
 {% include navigation/core-link.html
     href="stamps"
     title="贴纸列表"
@@ -23,6 +25,8 @@ localization: zh-CN
     title="创建贴纸"
     description="查看创建贴纸的方式"
 %}
+
+## 欲了解更多
 
 {% include navigation/absolute-link.html
     external=true

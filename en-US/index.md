@@ -6,6 +6,8 @@ localization: en-US
 
 # {{ page.title }}
 
+## Stamps
+
 {% include navigation/core-link.html
     href="stamps"
     title="Stamps List"
@@ -23,6 +25,8 @@ localization: en-US
     title="Create Stamp"
     description="View how to create stamps"
 %}
+
+## Learn More
 
 {% include navigation/absolute-link.html
     external=true
