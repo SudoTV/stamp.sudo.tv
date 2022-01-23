@@ -22,4 +22,4 @@ Under every stamp detail page, there's a method of acquiring section in it, whic
 %}
 </blockquote>
 
-If email is one of the methods of acquiring, send an email to [stamp@sudo.tv](mailto://stamp@sudo.tv) with the information of the stamp you want to acquire.
+If email is one of the methods of acquiring, send a pull-request to acquire it. If you have any question regards stamps, send an email to [stamp@sudo.tv](mailto://stamp@sudo.tv) to contact us.

@@ -22,4 +22,4 @@ localization: zh-CN
 %}
 </blockquote>
 
-如果邮件是其中一个获取方式，发送一封包含您想获得的贴纸信息的邮件到 [stamp@sudo.tv](mailto://stamp@sudo.tv) 来取得。
+如果邮件是其中一个获取方式，发送一封包含您想获得的贴纸信息的邮件到 [stamp@sudo.tv](mailto://stamp@sudo.tv) 来取得。如果您有任何关于贴纸的疑问，您也可以发送邮件到 [stamp@sudo.tv](mailto://stamp@sudo.tv) 来联系我们。
