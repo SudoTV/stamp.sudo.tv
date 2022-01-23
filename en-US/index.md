@@ -29,5 +29,5 @@ localization: en-US
     with-origin=true
     href="https://sudo.tv/reprint/stamp"
     title="How to Reprint Stamps"
-    description="View your right and limitations to reprint stamps"
+    description="View your right and limitations to reprint SudoTV Stamps"
 %}

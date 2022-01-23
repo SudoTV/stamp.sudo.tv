@@ -29,5 +29,5 @@ localization: zh-CN
     with-origin=true
     href="https://sudo.tv/reprint/stamp"
     title="如何转载贴纸"
-    description="查看您转载贴纸的权利和限制"
+    description="查看您转载 SudoTV 贴纸的权利和限制"
 %}
