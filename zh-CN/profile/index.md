@@ -15,9 +15,15 @@ localization: zh-CN
 ## 欲了解更多
 
 {% include navigation/absolute-link.html
+    href="/create"
+    title="创建您自己的画像"
+    description="查看创建您自己的画像的方式"
+%}
+
+{% include navigation/absolute-link.html
     external=true
     with-origin=true
     href="https://sudo.tv/reprint/profile"
-    title="如何转载用户画像"
-    description="查看您转载 SudoTV 用户画像的权利和限制"
+    title="如何转载观众的画像"
+    description="查看您转载 SudoTV 观众的画像的权利和限制"
 %}

@@ -15,6 +15,12 @@ Input the viewer's profile name and click `Go` button to redirect to the viewer'
 ## Learn More
 
 {% include navigation/absolute-link.html
+    href="/create"
+    title="Create your own profile"
+    description="Learn more about how to create your own profile"
+%}
+
+{% include navigation/absolute-link.html
     external=true
     with-origin=true
     href="https://sudo.tv/reprint/profile"
