@@ -21,13 +21,19 @@ localization: en-US
 %}
 
 {% include navigation/core-link.html
+    href="create/profile"
+    title="Create Profile"
+    description="View how to create profiles"
+%}
+
+{% include navigation/core-link.html
     href="acquire"
     title="Acquire Stamp"
     description="View methods to acquire stamps"
 %}
 
 {% include navigation/core-link.html
-    href="create"
+    href="create/stamp"
     title="Create Stamp"
     description="View how to create stamps"
 %}

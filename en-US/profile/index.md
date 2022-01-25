@@ -15,7 +15,7 @@ Input the viewer's profile name and click `Go` button to redirect to the viewer'
 ## Learn More
 
 {% include navigation/absolute-link.html
-    href="/create"
+    href="/create/profile"
     title="Create your own profile"
     description="Learn more about how to create your own profile"
 %}

@@ -15,7 +15,7 @@ localization: zh-CN
 ## 欲了解更多
 
 {% include navigation/absolute-link.html
-    href="/create"
+    href="/create/profile"
     title="创建您自己的画像"
     description="查看创建您自己的画像的方式"
 %}

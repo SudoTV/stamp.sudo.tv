@@ -17,7 +17,13 @@ localization: zh-CN
 {% include navigation/core-link.html
     href="profile"
     title="画像"
-    description="了解观众的画像"
+    description="了解观众画像"
+%}
+
+{% include navigation/core-link.html
+    href="create/profile"
+    title="创建画像"
+    description="查看创建观众画像的方式"
 %}
 
 {% include navigation/core-link.html
@@ -27,7 +33,7 @@ localization: zh-CN
 %}
 
 {% include navigation/core-link.html
-    href="create"
+    href="create/stamp"
     title="创建贴纸"
     description="查看创建贴纸的方式"
 %}
