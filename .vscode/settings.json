@@ -9,6 +9,7 @@
         "endfor",
         "forloop",
         "ifeq",
+        "markdownify",
         "minmax",
         "PCXPY",
         "pnpm",

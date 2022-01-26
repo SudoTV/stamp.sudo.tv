@@ -17,13 +17,13 @@ about:
   weibo: ghost
 localization:
   zh-CN:
-    bio: |
-      "我是鬼魂"
-      "我的页面是一个用于测试和展示特殊的画像"
+    bio: |-
+      **我是鬼魂**
+      我的页面是一个用于测试和展示特殊的画像
   en-US:
-    bio: >
-      "I am a ghost"
-      "My page is a special profile for testing and demostraction"
+    bio: |-
+      **I am a ghost**
+      My page is a special profile for testing and demostraction
 stamps:
   - stamp: ghost
   - stamp: hello-world
