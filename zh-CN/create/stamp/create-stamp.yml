@@ -1,0 +1,21 @@
+identifier: <STAMP-IDENTIFIER>
+rarity: well-known
+release-date: <TODAY-DATE>
+copyright: <YOUR-GITHUB-USERNAME>
+methods:
+  - pull-request
+  - email
+icon:
+  zh-CN:
+    url: https://stamp.sudo.tv/stamp/$/<STAMP-IDENTIFIER>/en-US.png
+  en-US:
+    url: https://stamp.sudo.tv/stamp/$/<STAMP-IDENTIFIER>/en-US.png
+localization:
+  zh-CN:
+    label: "酷酷贴纸"
+    description: "奖励给酷酷的人"
+    how-to-get: "很酷"
+  en-US:
+    label: "Nice Stamp"
+    description: "Award to nice people"
+    how-to-get: "Being nice"
