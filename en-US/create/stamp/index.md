@@ -27,6 +27,7 @@ A stamp icon will be needed for your design. The icon should be meet the followi
 - **Copyright**: Licensed under a Creative Commons license
 - **Legal**: Must be legal in the country of the SudoTV Project serving
 - **Disclaim**: Not include controversial content
+- **Hosting**: By SudoTV Project or community approved hosting service
 
 ## Create Stamp
 
