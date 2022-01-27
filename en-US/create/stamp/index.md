@@ -6,7 +6,7 @@ localization: en-US
 
 # {{ page.title }}
 
-Before get started, please view our contribution policy.
+Before getting started, please view our contribution policy.
 
 {% include navigation/absolute-link.html
     external=true
@@ -15,6 +15,18 @@ Before get started, please view our contribution policy.
     title="SudoTV Contribute"
     description="Learn more about make contribution to the SudoTV Project"
 %}
+
+## Stamp Icon
+
+A stamp icon will be needed for your design. The icon should be meet the following requirements:
+
+- **Dimension**: Exactly 360 * 144 pixels
+- **Format**: PNG, JPG, JPEG or WEBP
+- **Style**: Pixel art, stick figure or comic style
+- **Size**: Smaller or equal 100 KB
+- **Copyright**: Licensed under a Creative Commons license
+- **Legal**: Must be legal in the country of your design
+- **Disclaim**: Not include controversial content
 
 ## Create Stamp
 

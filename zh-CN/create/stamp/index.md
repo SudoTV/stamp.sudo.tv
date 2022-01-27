@@ -16,6 +16,18 @@ localization: zh-CN
     description="了解为 SudoTV 计划添砖加瓦"
 %}
 
+## 贴纸图标
+
+您需要准备一个贴纸图标。图标应该符合以下要求：
+
+- **尺寸**: 360 * 144 像素
+- **格式**: PNG, JPG, JPEG 或 WEBP
+- **风格**: 像素画，简笔画或漫画风格
+- **大小**: 小于或等于 100 KB
+- **版权**: 发布于一个 Creative Common 许可证
+- **合规**: 必须在 SudoTV 项目提供服务的国家合法
+- **免责**: 不包含任何可能导致争议的内容
+
 ## 创建贴纸
 
 为了创建贴纸，您需要为 [SudoTV 贴纸的 GitHub 仓库](https://github.com/SudoTV/stamp.sudo.tv) 创建一个拉取请求。
