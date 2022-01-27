@@ -1,0 +1,13 @@
+viewer: <YOUR-GITHUB-USERNAME>
+name: <YOUR-NAME>
+about:
+  github: <YOUR-GITHUB-USERNAME>
+localization:
+  zh-CN:
+    bio: |-
+      简体中文的简介
+  en-US:
+    bio: |-
+      Bio in English
+stamps:
+  - stamp: i-create-my-own-profile
