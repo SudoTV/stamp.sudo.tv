@@ -31,6 +31,10 @@ A stamp icon will be needed for your design. The icon should be meet the followi
 
 ## Create Stamp
 
+{% include stamp/earn.html
+    stamp0=site.data.stamp.stamp-designer
+%}
+
 To create a stamp, you will need to create a pull request for [SudoTV Stamp GitHub Repository](https://github.com/SudoTV/stamp.sudo.tv).
 
 Visit [GitHub Topics](https://resource.sudo.tv/topic/github) if you need more information about GitHub and pull requests.

@@ -31,6 +31,10 @@ localization: zh-CN
 
 ## 创建贴纸
 
+{% include stamp/earn.html
+    stamp0=site.data.stamp.stamp-designer
+%}
+
 为了创建贴纸，您需要为 [SudoTV 贴纸的 GitHub 仓库](https://github.com/SudoTV/stamp.sudo.tv) 创建一个拉取请求。
 
 如果您需要了解更多关于 GitHub 和拉取请求的内容，访问 [有关 GitHub 的主题](https://resource.sudo.tv/topic/github)。

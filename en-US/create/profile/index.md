@@ -18,6 +18,10 @@ Before getting started, please view our contribution policy.
 
 ## Create Profile
 
+{% include stamp/earn.html
+    stamp0=site.data.stamp.i-create-my-own-profile
+%}
+
 To create a profile, you will need to create a pull request for [SudoTV Stamp GitHub Repository](https://github.com/SudoTV/stamp.sudo.tv).
 
 Visit [GitHub Topics](https://resource.sudo.tv/topic/github) if you need more information about GitHub and pull requests.
