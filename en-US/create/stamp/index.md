@@ -25,7 +25,7 @@ A stamp icon will be needed for your design. The icon should be meet the followi
 - **Style**: Pixel art, stick figure or comic style
 - **Size**: Smaller or equal 100 KB
 - **Copyright**: Licensed under a Creative Commons license
-- **Legal**: Must be legal in the country of your design
+- **Legal**: Must be legal in the country of the SudoTV Project serving
 - **Disclaim**: Not include controversial content
 
 ## Create Stamp
