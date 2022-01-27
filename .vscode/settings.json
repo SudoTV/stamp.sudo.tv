@@ -7,6 +7,7 @@
         "endcapture",
         "endcase",
         "endfor",
+        "endraw",
         "forloop",
         "ifeq",
         "ltrim",
