@@ -32,3 +32,7 @@ build:
 fill-stamps:
 	@echo "[INFO] Executing Fill Stamps Script"
 	@node script/fill-stamps.js
+
+init-stamp:
+	@echo "[INFO] Executing Fill Stamps Script"
+	@node script/init-stamp.js
