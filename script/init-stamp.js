@@ -55,5 +55,7 @@ readline.question('[~~~~] Stamp Name: ', (stampName) => {
         exec(`open ${targetPathFolder}`);
     }
 
+    exec(`code ${targetYMLPath}`);
+
     readline.close();
 });
