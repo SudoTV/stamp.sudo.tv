@@ -28,3 +28,7 @@ install:
 build:
 	@echo "[INFO] Building Site"
 	@bundler exec jekyll build
+
+fill-stamps:
+	@echo "[INFO] Executing Fill Stamps Script"
+	@node script/fill-stamps.js

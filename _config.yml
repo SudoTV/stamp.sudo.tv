@@ -29,6 +29,7 @@ exclude:
   - ".vscode/"
   - .jekyll-cache/
   - docs/
+  - script/
   - gemfiles/
   - _data
   - _config.yml
