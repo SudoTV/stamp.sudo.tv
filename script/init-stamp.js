@@ -6,7 +6,7 @@ const FS = require("fs");
 const Path = require("path");
 const Readline = require('readline');
 
-const blankImagePath = Path.join(__dirname, '..', 'stamp', '$', '_blank', 'blank.png');
+const blankImagePath = Path.join(__dirname, '..', 'stamp', '$', 'blank', 'blank.png');
 const blankYMLPath = Path.join(__dirname, '..', '_data', 'stamp', 'blank.yml');
 
 const readline = Readline.createInterface(
@@ -37,8 +37,8 @@ readline.question('[~~~~] Stamp Name: ', (stampName) => {
     const fixedBlankYML = blankYMLData
         .replace('identifier: blank', `identifier: ${stampName}`)
         .replace('2022-01-27', `${currentYear}-${currentMonth}-${currentDay}`)
-        .replace('https://stamp.sudo.tv/stamp/$/_blank/blank.png', `https://stamp.sudo.tv/stamp/$/${stampName}/en-US.png`)
-        .replace('https://stamp.sudo.tv/stamp/$/_blank/blank.png', `https://stamp.sudo.tv/stamp/$/${stampName}/en-US.png`);
+        .replace('https://stamp.sudo.tv/stamp/$/blank/blank.png', `https://stamp.sudo.tv/stamp/$/${stampName}/en-US.png`)
+        .replace('https://stamp.sudo.tv/stamp/$/blank/blank.png', `https://stamp.sudo.tv/stamp/$/${stampName}/en-US.png`);
 
     FS.writeFileSync(targetYMLPath, fixedBlankYML);
 
