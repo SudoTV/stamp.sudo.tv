@@ -1,7 +1,8 @@
 identifier: <STAMP-IDENTIFIER>
 rarity: well-known
 release-date: <TODAY-DATE>
-copyright: <YOUR-GITHUB-USERNAME>
+copyright:
+  icon-design: <YOUR-GITHUB-USERNAME>
 methods:
   - pull-request
   - email
