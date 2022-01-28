@@ -4,6 +4,7 @@
 
 const FS = require("fs");
 const Path = require("path");
+
 const { exec } = require("child_process");
 
 const rawDataStamps = FS.readdirSync(Path.join(__dirname, '..', '_data', 'stamp'));

@@ -3,8 +3,11 @@
  */
 
 const FS = require("fs");
+const OS = require("os");
 const Path = require("path");
 const Readline = require('readline');
+
+const { exec } = require("child_process");
 
 const blankImagePath = Path.join(__dirname, '..', 'stamp', '$', 'blank', 'blank.png');
 const blankYMLPath = Path.join(__dirname, '..', '_data', 'stamp', 'blank.yml');
@@ -43,6 +46,14 @@ readline.question('[~~~~] Stamp Name: ', (stampName) => {
     FS.writeFileSync(targetYMLPath, fixedBlankYML);
 
     console.log(`[INFO] Stamp YML ${stampName} created`);
+
+    const platform = OS.platform();
+
+    if (platform === 'win32') {
+        exec(`start ${targetPathFolder}`);
+    } else {
+        exec(`open ${targetPathFolder}`);
+    }
 
     readline.close();
 });
