@@ -34,5 +34,5 @@ fill-stamps:
 	@node script/fill-stamps.js
 
 init-stamp:
-	@echo "[INFO] Executing Fill Stamps Script"
+	@echo "[INFO] Executing Init Stamp Script"
 	@node script/init-stamp.js
