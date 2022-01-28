@@ -24,7 +24,7 @@ readline.question('[~~~~] Stamp Name: ', (stampName) => {
 
     FS.copyFileSync(blankImagePath, Path.join(targetPathFolder, 'en-US.png'));
 
-    console.log(`[INFO] Stamp Icon ${stampName} created.`);
+    console.log(`[INFO] Stamp Icon ${stampName} created`);
 
     const targetYMLPath = Path.join(__dirname, '..', '_data', 'stamp', `${stampName}.yml`);
 
@@ -42,7 +42,7 @@ readline.question('[~~~~] Stamp Name: ', (stampName) => {
 
     FS.writeFileSync(targetYMLPath, fixedBlankYML);
 
-    console.log(`[INFO] Stamp YML ${stampName} created.`);
+    console.log(`[INFO] Stamp YML ${stampName} created`);
 
     readline.close();
 });

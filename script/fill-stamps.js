@@ -63,7 +63,7 @@ const zhCNPattern = FS.readFileSync(Path.join(__dirname, 'zh-cn-pattern.txt'), '
 
         FS.writeFileSync(Path.join(__dirname, '..', 'en-US', 'stamp', `${enUSMissedStamp}.md`), parsedFileContent);
 
-        console.log(`[INFO] Generated ${enUSMissedStamp}`);
+        console.log(`[INFO] Generated ${enUSMissedStamp} for en-US`);
     }
 
     for (const zhCNMissedStamp of zhCNMissedStamps) {
@@ -76,6 +76,6 @@ const zhCNPattern = FS.readFileSync(Path.join(__dirname, 'zh-cn-pattern.txt'), '
 
         FS.writeFileSync(Path.join(__dirname, '..', 'zh-CN', 'stamp', `${zhCNMissedStamp}.md`), parsedFileContent);
 
-        console.log(`[INFO] Generated ${zhCNMissedStamp}`);
+        console.log(`[INFO] Generated ${zhCNMissedStamp} for zh-CN`);
     }
 })();
