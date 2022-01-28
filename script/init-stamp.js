@@ -6,7 +6,7 @@ const FS = require("fs");
 const Path = require("path");
 const Readline = require('readline');
 
-const blankImagePath = Path.join(__dirname, '..', 'stamp', 'blank', 'blank.png');
+const blankImagePath = Path.join(__dirname, '..', 'stamp', '$', '_blank', 'blank.png');
 
 const readline = Readline.createInterface(
     process.stdin,
