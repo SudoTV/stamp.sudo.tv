@@ -36,3 +36,7 @@ fill-stamps:
 init-stamp:
 	@echo "[INFO] Executing Init Stamp Script"
 	@node script/init-stamp.js
+
+init-profile:
+	@echo "[INFO] Executing Init Profile Script"
+	@node script/init-profile.js

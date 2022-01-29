@@ -5,9 +5,9 @@ about:
 localization:
   zh-CN:
     bio: |-
-      简体中文的简介
+      PLACEHOLDER
   en-US:
     bio: |-
-      Bio in English
+      PLACEHOLDER
 stamps:
   - stamp: i-create-my-own-profile
