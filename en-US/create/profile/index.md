@@ -22,6 +22,22 @@ Before getting started, please view our contribution policy.
     stamp0=site.data.stamp.i-create-my-own-profile
 %}
 
+### Create Profile with Wizard Script
+
+Under the repository workspace:
+
+{% include copyable/copyable-text-highlight.html
+    shell="any-terminal"
+    language="shell"
+    text="make init-profile"
+%}
+
+Follow the wizard and everything you need for profile creation will be and opened automatically.
+
+After config editing, you may now submit your change!
+
+### Create Profile Manually
+
 To create a profile, you will need to create a pull request for [SudoTV Stamp GitHub Repository](https://github.com/SudoTV/stamp.sudo.tv).
 
 Visit [GitHub Topics](https://resource.sudo.tv/topic/github) if you need more information about GitHub and pull requests.

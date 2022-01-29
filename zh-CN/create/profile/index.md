@@ -22,6 +22,22 @@ localization: zh-CN
     stamp0=site.data.stamp.i-create-my-own-profile
 %}
 
+### 使用向导脚本创建画像
+
+在仓库工作区下：
+
+{% include copyable/copyable-text-highlight.html
+    shell="any-terminal"
+    language="shell"
+    text="make init-profile"
+%}
+
+跟随向导，所有创建画像需要的文件都将被自动创建并自动打开。
+
+在您完成配置编辑之后，您就可以提交您的更改了！
+
+### 手动创建画像
+
 为了创建画像，您需要为 [SudoTV 贴纸的 GitHub 仓库](https://github.com/SudoTV/stamp.sudo.tv) 创建一个拉取请求。
 
 如果您需要了解更多关于 GitHub 和拉取请求的内容，访问 [有关 GitHub 的主题](https://resource.sudo.tv/topic/github)。
