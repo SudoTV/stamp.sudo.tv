@@ -8,6 +8,7 @@
         "endcase",
         "endfor",
         "endraw",
+        "ERRR",
         "forloop",
         "ifeq",
         "ltrim",
