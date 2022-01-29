@@ -35,6 +35,30 @@ localization: zh-CN
     stamp0=site.data.stamp.stamp-designer
 %}
 
+### 使用向导脚本创建贴纸
+
+在仓库工作区下：
+
+{% include copyable/copyable-text-highlight.html
+    shell="any-terminal"
+    language="shell"
+    text="make init-stamp"
+%}
+
+跟随向导，图像文件夹和 YML 配置文件将被自动创建并自动打开。
+
+当您的设计和配置编辑完成后，在仓库工作区下：
+
+{% include copyable/copyable-text-highlight.html
+    shell="any-terminal"
+    language="shell"
+    text="make fill-stamps"
+%}
+
+完成了，您可以提交您的更改了！
+
+### 手动创建贴纸
+
 为了创建贴纸，您需要为 [SudoTV 贴纸的 GitHub 仓库](https://github.com/SudoTV/stamp.sudo.tv) 创建一个拉取请求。
 
 如果您需要了解更多关于 GitHub 和拉取请求的内容，访问 [有关 GitHub 的主题](https://resource.sudo.tv/topic/github)。

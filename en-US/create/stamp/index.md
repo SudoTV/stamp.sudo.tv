@@ -35,6 +35,30 @@ A stamp icon will be needed for your design. The icon should be meet the followi
     stamp0=site.data.stamp.stamp-designer
 %}
 
+### Create Stamp with Wizard Script
+
+Under the repository workspace:
+
+{% include copyable/copyable-text-highlight.html
+    shell="any-terminal"
+    language="shell"
+    text="make init-stamp"
+%}
+
+Follow the wizard and the image folder and YML config file will be created and opened automatically.
+
+After your design and config editing, under the repository workspace:
+
+{% include copyable/copyable-text-highlight.html
+    shell="any-terminal"
+    language="shell"
+    text="make fill-stamps"
+%}
+
+All done, you may now submit your change!
+
+### Create Stamp Manually
+
 To create a stamp, you will need to create a pull request for [SudoTV Stamp GitHub Repository](https://github.com/SudoTV/stamp.sudo.tv).
 
 Visit [GitHub Topics](https://resource.sudo.tv/topic/github) if you need more information about GitHub and pull requests.
