@@ -33,6 +33,10 @@ fill-stamps:
 	@echo "[INFO] Executing Fill Stamps Script"
 	@node script/fill-stamps.js
 
+fill-stamps-all:
+	@echo "[INFO] Executing Fill All Stamps Script"
+	@node script/fill-stamps.js --all
+
 init-stamp:
 	@echo "[INFO] Executing Init Stamp Script"
 	@node script/init-stamp.js
