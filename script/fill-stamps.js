@@ -7,6 +7,16 @@ const Path = require("path");
 
 const { exec } = require("child_process");
 
+const args = process.argv.slice(2);
+
+let all = false;
+
+if (args.includes('--all')) {
+
+    console.log('[INFO] Using all mode');
+    all = true;
+}
+
 const rawDataStamps = FS.readdirSync(Path.join(__dirname, '..', '_data', 'stamp'));
 const rawEnUSStamps = FS.readdirSync(Path.join(__dirname, '..', 'en-US', 'stamp'));
 const rawZhCNStamps = FS.readdirSync(Path.join(__dirname, '..', 'zh-CN', 'stamp'));
@@ -24,9 +34,17 @@ const zhCNStamps = rawZhCNStamps.map((filename) => {
 });
 
 const enUSMissedStamps = dataStamps.filter((stamp) => {
+
+    if (all) {
+        return true;
+    }
     return !enUSStamps.includes(stamp);
 });
 const zhCNMissedStamps = dataStamps.filter((stamp) => {
+
+    if (all) {
+        return true;
+    }
     return !zhCNStamps.includes(stamp);
 });
 
