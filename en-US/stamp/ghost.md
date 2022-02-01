@@ -1,5 +1,5 @@
 ---
-title: Ghost - SudoTV Stamp
+title: I am a ghost - SudoTV Stamp
 layout: base
 localization: en-US
 ---

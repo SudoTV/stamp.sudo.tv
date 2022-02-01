@@ -1,5 +1,5 @@
 ---
-title: Ghost - SudoTV 贴纸
+title: 我是鬼魂 - SudoTV 贴纸
 layout: base
 localization: zh-CN
 ---

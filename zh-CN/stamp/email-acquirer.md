@@ -1,5 +1,5 @@
 ---
-title: 邮件获取人 - SudoTV 贴纸
+title: 邮件获得人 - SudoTV 贴纸
 layout: base
 localization: zh-CN
 ---
