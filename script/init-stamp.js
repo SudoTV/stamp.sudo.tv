@@ -150,10 +150,14 @@ const blankYMLPath = Path.join(__dirname, '..', '_data', 'stamp', 'blank.yml');
         exec(`open ${targetPathFolder}`);
     }
 
-    console.log(`[INFO] Opening ${targetPathFolder}`);
+    console.log(`[INFO] Opening ${targetPathFolder} (file manager)`);
+
+    exec(`code ${Path.join(targetPathFolder, 'en-US.png')}`);
+
+    console.log(`[INFO] Opening ${Path.join(targetPathFolder, 'en-US.png')} (VSCode)`);
 
     exec(`code ${targetYMLPath}`);
 
-    console.log(`[INFO] Opening ${targetPathFolder}/${stampName}.yml`);
+    console.log(`[INFO] Opening ${Path.join(targetYMLPath, stampName)}.yml`);
     console.log("[INFO] Finished");
 })();
