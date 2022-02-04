@@ -28,5 +28,6 @@ stamps:
   - stamp: ghost
   - stamp: hello-world
   - stamp: hello-world-properties
+  - stamp: hello-world-properties
     properties:
       power-level: 5
