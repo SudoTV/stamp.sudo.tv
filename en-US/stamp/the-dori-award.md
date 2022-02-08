@@ -1,0 +1,9 @@
+---
+title: The Dori Award - SudoTV Stamp
+layout: base
+localization: en-US
+---
+
+{% include stamp/stamp.html
+    stamp=site.data.stamp.the-dori-award
+%}
