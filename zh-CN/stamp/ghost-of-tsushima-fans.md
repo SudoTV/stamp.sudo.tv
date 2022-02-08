@@ -5,5 +5,5 @@ localization: zh-CN
 ---
 
 {% include stamp/stamp.html
-    stamp=site.data.stamp.ghost-of-tsushima
+    stamp=site.data.stamp.ghost-of-tsushima-fans
 %}
