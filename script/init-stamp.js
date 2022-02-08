@@ -145,12 +145,26 @@ const blankYMLPath = Path.join(__dirname, '..', '_data', 'stamp', 'blank.yml');
     const platform = OS.platform();
 
     if (platform === 'win32') {
-        exec(`start ${targetPathFolder}`);
-    } else {
-        exec(`open ${targetPathFolder}`);
-    }
 
-    console.log(`[INFO] Opening ${targetPathFolder} (file manager)`);
+        const withPaint = await readlineQuestion("Open With Paint? (y/n)");
+
+        if (withPaint === 'y') {
+
+            exec(`mspaint ${Path.join(targetPathFolder, 'en-US.png')}`);
+
+            console.log(`[INFO] Opening ${Path.join(targetPathFolder, 'en-US.png')} (Paint)`);
+        } else {
+
+            exec(`start ${targetPathFolder}`);
+
+            console.log(`[INFO] Opening ${targetPathFolder} (file manager)`);
+        }
+    } else {
+
+        exec(`open ${targetPathFolder}`);
+
+        console.log(`[INFO] Opening ${targetPathFolder} (file manager)`);
+    }
 
     exec(`code ${Path.join(targetPathFolder, 'en-US.png')}`);
 
