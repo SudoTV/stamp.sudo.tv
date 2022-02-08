@@ -41,6 +41,10 @@ init-stamp:
 	@echo "[INFO] Executing Init Stamp Script"
 	@node script/init-stamp.js
 
+rename-stamp:
+	@echo "[INFO] Executing Rename Stamp Script"
+	@node script/rename-stamp.js
+
 init-profile:
 	@echo "[INFO] Executing Init Profile Script"
 	@node script/init-profile.js
