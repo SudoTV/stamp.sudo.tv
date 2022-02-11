@@ -14,6 +14,14 @@ localization: en-US
     description="View how to create stamps"
 %}
 
+{% include navigation/absolute-link.html
+    external=true
+    with-origin=true
+    href="https://sudo.tv/reprint/stamp"
+    title="How to Reprint Stamps"
+    description="View your right and limitations to reprint SudoTV stamps"
+%}
+
 ## Stamp List
 
 <ul class="stamp-hi-flex">

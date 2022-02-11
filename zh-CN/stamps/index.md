@@ -14,6 +14,14 @@ localization: zh-CN
     description="查看创建贴纸的方式"
 %}
 
+{% include navigation/absolute-link.html
+    external=true
+    with-origin=true
+    href="https://sudo.tv/reprint/stamp"
+    title="如何转载贴纸"
+    description="查看您转载 SudoTV 贴纸的权利和限制"
+%}
+
 ## 贴纸列表
 
 <ul class="stamp-hi-flex">
